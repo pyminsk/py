@@ -1,0 +1,7 @@
+https://tproger.ru/translations/create-your-first-django-app/
+
+http://itman.in/django-howto/
+
+http://ep-z.ru/stroitelstvo/sayt/python/python-django
+
+https://tokar.ua/read/6901
