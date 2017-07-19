@@ -1,0 +1,13 @@
+pip install Django==1.9.1
+django-admin –-version 
+django-admin startproject django_example
+python manage.py runserver
+http://127.0.0.1:8000/	
+python manage.py startapp riddles
+riddles/views.py
+python manage.py migrate
+python manage.py makemigrations riddles
+python manage.py sqlmigrate riddles 0001 
+python manage.py createsuperuser
+
+
