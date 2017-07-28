@@ -4,14 +4,14 @@ print('Ghost Game')
 feeling_brave = True
 score = 0
 while feeling_brave:
-    ghost_door = randint (1,  3)
+    ghost_door = randint (1,  4)
     print ('Three doors ahead...')
     print ('A ghost behing one.')
     print ('Which door do you open?')
-    door = input('1, 2, or 3?')
+    door = input('1, 2, 3, or 4?')
     door_num = int(door)
     if door_num == ghost_door:
-        print('GHOST!')
+        print('GHOST')
         feeling_brave = False
     else:
         print('No ghost!')
